@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-split'],   // ✅ Add this line
+      external: ['react-split']
     }
   }
 })
